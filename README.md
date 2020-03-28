@@ -1,4 +1,4 @@
-# Projeto complemtar para o programa de estágio da LG Lugar de Gente.
+# Projeto complementar para o programa de estágio da LG Lugar de Gente.
 
 Projeto complementar para os estagiários da LG Lugar de Gente que teve interesse em praticar de forma individual os tópicos vistos durante o  curso ministrado por **Douglas Mendes**.
 
