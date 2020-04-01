@@ -12,14 +12,14 @@ namespace Estacionapp
         {
         }
 
-        public double CobrancaAdicionalHora()
-        {
-            return 1.50;
-        }
-
-        public double CobrancaPrimeiraHora()
+        public double ValorDaPrimeiraHora()
         {
             return 3;
+        }
+
+        public double ValorDaHoraAdicional()
+        {
+            return 1.50;
         }
     }
 }

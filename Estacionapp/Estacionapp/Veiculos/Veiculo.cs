@@ -15,6 +15,9 @@ namespace Estacionapp
         public DateTime DataHoraSaida { get; private set; }
 
         public double ValorPago { get; private set; }
+        public double ValorAPagar { get; set; }
+
+        public int NumeroDeUtilizacoes { get; set; }
 
         public Veiculo(string placa, DateTime dataHoraEntrada, DateTime dataHoraSaida, double valorPago)
         {
@@ -24,9 +27,6 @@ namespace Estacionapp
             ValorPago = valorPago;
         }
 
-        public double CalcularTempo()
-        {
-            return (DataHoraSaida - DataHoraEntrada).TotalMinutes;
-        }
+
     }
 }

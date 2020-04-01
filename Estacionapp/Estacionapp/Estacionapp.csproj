@@ -43,7 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CalculaValores.cs" />
+    <Compile Include="Calculos\CalculosDeValores.cs" />
+    <Compile Include="Calculos\CalculosDeTempo.cs" />
+    <Compile Include="Descontos\DescontoPorQuinzeMinutos.cs" />
+    <Compile Include="Descontos\DescontoPorNumeroDeUtilizacoes.cs" />
+    <Compile Include="Interfaces\IDesconto.cs" />
+    <Compile Include="Descontos\SemDesconto.cs" />
     <Compile Include="Veiculos\Camionetes.cs" />
     <Compile Include="Veiculos\Carro.cs" />
     <Compile Include="Interfaces\ICobranca.cs" />

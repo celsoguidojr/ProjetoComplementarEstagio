@@ -8,7 +8,7 @@ namespace Estacionapp
 {
     public interface ICobranca
     {
-        double CobrancaPrimeiraHora();
-        double CobrancaAdicionalHora();
+        double ValorDaPrimeiraHora();
+        double ValorDaHoraAdicional();
     }
 }
